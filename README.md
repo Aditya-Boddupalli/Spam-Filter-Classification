@@ -38,12 +38,45 @@ A. With removing stopwords and special characters:
 
 1. Sequential model which has embedding layer with embedding matrix built using pre-trained glove.I have set trainable=false in the embedding layer, as we have already have weight matrix, so no need to update the weights during training.
 
+Architecture : 
+
+![image](https://user-images.githubusercontent.com/31129705/57294707-24945280-70e6-11e9-9afc-df801b13ef0f.png)
+
+Performance :
+
+![image](https://user-images.githubusercontent.com/31129705/57294758-4988c580-70e6-11e9-8a87-a4e26817eb71.png)
+
 2. Sequential model which has embedding layer without using glove and without any weight matrix. The weights get updated during the training process.
+
+Architecture: 
+
+![image](https://user-images.githubusercontent.com/31129705/57294946-d92e7400-70e6-11e9-8f39-7d65ba2e4906.png)
+
+Performance :
+
+![image](https://user-images.githubusercontent.com/31129705/57294988-fbc08d00-70e6-11e9-8361-83312493bce9.png)
+
+
 
 B. Without removing stopwords and special characters:
 
 1. Without using pre-trained glove embeddings, this has huge corpus, hence it'll take a lot of time in training.
 
+Architecture :
+
+![image](https://user-images.githubusercontent.com/31129705/57295061-34f8fd00-70e7-11e9-9751-dfaf49917c21.png)
+
+Performance :
+
+![image](https://user-images.githubusercontent.com/31129705/57295109-5d80f700-70e7-11e9-8493-ee575f297057.png)
+
 2. With using pre-trained embeddings.
 
+Architecture :
+
+![image](https://user-images.githubusercontent.com/31129705/57295175-928d4980-70e7-11e9-922d-3766420c71cb.png)
+
+Performance :
+
+![image](https://user-images.githubusercontent.com/31129705/57295243-b2bd0880-70e7-11e9-93e0-857a0b939f12.png)
 
