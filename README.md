@@ -60,6 +60,8 @@ Performance :
 
 B. Without removing stopwords and special characters:
 
+I used keras callbacks such as model checkpoint and early stopping, to save the model weights aftr every epoch as the models here take very long time to train. So saving weights after each epoch enable us to re-use the models. Early stopping is used so that model does not spend too much time in training unnecessairly, so it will stop as soon as it does not see any improvemnent in val-acc paramater.
+
 1. Without using pre-trained glove embeddings, this has huge corpus, hence it'll take a lot of time in training.
 
 Architecture :
