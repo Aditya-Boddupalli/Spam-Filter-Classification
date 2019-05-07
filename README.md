@@ -2,12 +2,8 @@
 
 Here we are given huge dataset which contains Quora questions amd their repsonses whether they are span or not. The model we build must classify the quora questions as spam or not. The dataset shared is in below format.
 
-	    qid	                              question_text	                  target
-0	00002165364db923c7e6	How did Quebec nationalists see their province...	0
-1	000032939017120e6e44	Do you have an adopted dog, how would you enco...	0
-2	0000412ca6e4628ce2cf	Why does velocity affect time? Does velocity a...	0
-3	000042bf85aa498cd78e	How did Otto von Guericke used the Magdeburg h...	0
-4	0000455dfa3e01eae3af	Can I convert montra helicon D to a mountain b...	0
+![image](https://user-images.githubusercontent.com/31129705/57281267-467edc80-70c8-11e9-8669-2b062d99ef8a.png)
+
 
 The shape of the dataset is (1306122, 3), so we have 1306122 rows. To bring down the dimensions, we can make us eof pre-trained embeddings such as glove or any other open source embeddings to make it easier. 
 
