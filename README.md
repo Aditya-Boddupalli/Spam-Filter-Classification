@@ -1,6 +1,6 @@
 # Spam Filter Classification
 
-Here we are given huge dataset which contains Quora questions amd their repsonses whether they are span or not. The model we build must classify the quora questions as spam or not. The dataset shared is in below format.
+Here we are given huge dataset which contains Quora questions amd their repsonses whether they are spam or not. The model we build must classify the quora questions as spam or not. The dataset shared is in below format.
 
 ![image](https://user-images.githubusercontent.com/31129705/57281267-467edc80-70c8-11e9-8669-2b062d99ef8a.png)
 
